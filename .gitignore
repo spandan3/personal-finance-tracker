@@ -9,6 +9,3 @@ dist/
 
 # Environment
 *.env
-
-# Model large files 
-*.pkl
