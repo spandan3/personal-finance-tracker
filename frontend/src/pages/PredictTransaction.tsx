@@ -71,7 +71,7 @@ export default function TransactionPredictor() {
     setError(null)
 
     try {
-      const response = await fetch("http://localhost:5000/predict", {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/predict`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
