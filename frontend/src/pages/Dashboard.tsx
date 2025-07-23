@@ -178,7 +178,13 @@ export default function FinanceDashboard() {
     
   const totalTransactions = usingDummy ? dummySummary.totalTransactions : displayTransactions.length;
   
-  const categoryData = usingDummy
+  interface CategoryData {
+    name: string;
+    value: number;
+    color: string;
+  }
+
+  const categoryData: CategoryData[] = usingDummy
     ? dummyCategoryData
     : Object.entries(
         displayTransactions.reduce((acc: any, t) => {
@@ -187,7 +193,7 @@ export default function FinanceDashboard() {
         }, {})
       ).map(([name, value], i) => ({
         name,
-        value,
+        value: value as number,
         color: ["#3b82f6", "#ef4444", "#10b981", "#f59e0b", "#8b5cf6", "#06b6d4", "#6b7280"][i % 7],
       }));
 
