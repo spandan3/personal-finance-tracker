@@ -24,9 +24,9 @@ An **AI-powered personal finance tracker** that predicts transaction categories 
 
 ## 📸 Screenshots
 ### **1. Transaction Prediction Page**
-*(AI model predicts the category of a given transaction)*
+<img width="1402" height="841" alt="ss1" src="https://github.com/user-attachments/assets/54427cbd-4f33-4a86-9284-b879c6e05cdb" />
 
 ### **2. Personalized Dashboard**
-*(View your recent transactions, top categories, and spending breakdown)*
-
+<img width="1247" height="951" alt="ss2" src="https://github.com/user-attachments/assets/fcb87020-3c52-43a3-a623-99d73f9d3cd3" />
 ---
+
